@@ -1,8 +1,8 @@
 ------------------------------------------------
--- This Source Was Developed By (arkon) @XxRxXx.--
---   This Is The Source Channel @XxRxXx .   --
+-- This Source Was Developed By (arkon) @ajaaa.--
+--   This Is The Source Channel @ajaaa .   --
 --                - 𝗦𝗼𝘂𝗿𝗰𝗲 arkon-                 --
---        -- https://t.me/XxRxXx --         --
+--        -- https://t.me/ajaaa --         --
 ------------------------------------------------ 
 URL     = require("./libs/url")
 JSON    = require("./libs/dkjson")
@@ -1575,7 +1575,7 @@ data = {
 {text = 'الغاء', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .⁦', url='https://t.me/ArkonSource'},
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .⁦', url='https://t.me/python_java'},
 },
 }
 }
@@ -1772,7 +1772,7 @@ data = {
 {text = 'الغاء', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .⁦', url='https://t.me/ArkonSource'},
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .⁦', url='https://t.me/python_java'},
 },
 }
 }
@@ -2046,7 +2046,7 @@ data = {
 {text = 'الغاء', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .⁦', url='https://t.me/ArkonSource'},
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .⁦', url='https://t.me/python_java'},
 },
 }
 }
@@ -2496,7 +2496,7 @@ end
 end   
 Get_Json = Get_Json..'],'
 end
-Get_Json = Get_Json..'"Dev":"XxRxXx"}'
+Get_Json = Get_Json..'"Dev":"ajaaa"}'
 end
 Get_Json = Get_Json..'}}'
 local File = io.open('./'..UserBot..'.json', "w")
@@ -2643,7 +2643,7 @@ data = {
 {text = '‹ تفعيل الايدي ›', data = msg.sender.user_id..'/'.. 'mute_IdPhoto'},
 },
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'},
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'},
 },
 }
 }
@@ -2726,7 +2726,7 @@ data = {
 {text = '‹ تفعيل الايدي ›', data = msg.sender.user_id..'/'.. 'mute_IdPhoto'},
 },
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'},
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'},
 },
 }
 }
@@ -3074,7 +3074,7 @@ if text == 'رتبتي' then
 local ban = LuaTele.getUser(msg.sender.user_id)
 local news = ' '..msg.Name_Controller
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {
-{{text =news,url = "https://t.me/ArkonSource"}, },}}
+{{text =news,url = "https://t.me/python_java"}, },}}
 return LuaTele.sendText(msg_chat_id,msg_id,'\n- رتبتك هي : '..msg.Name_Controller,"md", false, false, false, false, reply_markup)
 end
 if text == 'ايديي' then
@@ -4535,7 +4535,7 @@ data = {
 {text = 'الغاء', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = '𝖲𝗈𝗎𝗋𝖼𝖾 arkon', url='https://t.me/ArkonSource'},
+{text = '𝖲𝗈𝗎𝗋𝖼𝖾 arkon', url='https://t.me/python_java'},
 },
 }
 }
@@ -5058,7 +5058,7 @@ if not msg.DevelopersQ then
 return LuaTele.sendText(msg_chat_id,msg_id,'\n* -  هاذا الامر يخص  '..Controller_Num(2)..' * ',"md",true)  
 end
 if ChannelJoin(msg) == false then
-local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/ArkonSource'}, },}}
+local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/python_java'}, },}}
 return LuaTele.sendText(msg.chat_id,msg.id,'*\n -  عليك الاشتراك في قناة البوت لاستخذام الاوامر*',"md",false, false, false, false, reply_markup)
 end
 local UserId_Info = LuaTele.searchPublicChat(UserName)
@@ -5099,7 +5099,7 @@ if not msg.DevelopersQ then
 return LuaTele.sendText(msg_chat_id,msg_id,'\n* -  هاذا الامر يخص  '..Controller_Num(2)..' * ',"md",true)  
 end
 if ChannelJoin(msg) == false then
-local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/ArkonSource'}, },}}
+local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/python_java'}, },}}
 return LuaTele.sendText(msg.chat_id,msg.id,'*\n -  عليك الاشتراك في قناة البوت لاستخذام الاوامر*',"md",false, false, false, false, reply_markup)
 end
 local UserId_Info = LuaTele.searchPublicChat(UserName)
@@ -5573,7 +5573,7 @@ if not msg.DevelopersQ then
 return LuaTele.sendText(msg_chat_id,msg_id,'\n* -  هاذا الامر يخص  '..Controller_Num(2)..' * ',"md",true)  
 end
 if ChannelJoin(msg) == false then
-local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/ArkonSource'}, },}}
+local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/python_java'}, },}}
 return LuaTele.sendText(msg.chat_id,msg.id,'*\n -  عليك الاشتراك في قناة البوت لاستخذام الاوامر*',"md",false, false, false, false, reply_markup)
 end
 local Message_Reply = LuaTele.getMessage(msg.chat_id, msg.reply_to_message_id)
@@ -5611,7 +5611,7 @@ if not msg.DevelopersQ then
 return LuaTele.sendText(msg_chat_id,msg_id,'\n* -  هاذا الامر يخص  '..Controller_Num(2)..' * ',"md",true)  
 end
 if ChannelJoin(msg) == false then
-local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/ArkonSource'}, },}}
+local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {{{text = 'اضغط للاشتراك', url = 't.me/python_java'}, },}}
 return LuaTele.sendText(msg.chat_id,msg.id,'*\n -  عليك الاشتراك في قناة البوت لاستخذام الاوامر*',"md",false, false, false, false, reply_markup)
 end
 local Message_Reply = LuaTele.getMessage(msg.chat_id, msg.reply_to_message_id)
@@ -6259,7 +6259,7 @@ local TestText = "  ❲ Owner Groups ❳\n— — — — — — — — —\n 
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ', url = "https://t.me/ArkonSource"}
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ', url = "https://t.me/python_java"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -6661,7 +6661,7 @@ Abs = math.random(2,140);
 local Text ='*-  تم اختيار الاغنيه لك *'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ',url="t.me/ArkonSource"}},
+{{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ',url="t.me/python_java"}},
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/fgfgty12/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -6671,7 +6671,7 @@ Abs = math.random(2,140);
 local Text ='*تجميع اركون . *'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ',url="t.me/ArkonSource"}},
+{{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ',url="t.me/python_java"}},
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .voise/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -6681,7 +6681,7 @@ Abs = math.random(2,140);
 local Text ='*- تم اختيار متحركه لك*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ',url="t.me/ArkonSource"}},
+{{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ',url="t.me/python_java"}},
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendanimation?chat_id=' .. msg.chat_id .. '&animation=https://t.me/GifDavid/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -6691,7 +6691,7 @@ Abs = math.random(2,140);
 local Text ='*- تم اختيار الشعر لك فقط*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ',url="t.me/ArkonSource"}},
+{{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ',url="t.me/python_java"}},
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/L1BBBL/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -6701,7 +6701,7 @@ Abs = math.random(2,140);
 local Text ='*- تم اختيار الميمز لك فقط*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ',url="t.me/ArkonSource"}},
+{{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ',url="t.me/python_java"}},
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/remixsource/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -6712,7 +6712,7 @@ local Text ='*- تم اختيار ريمكس لك*'
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ', url = "https://t.me/ArkonSource"}
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ', url = "https://t.me/python_java"}
 },
 }
 local msg_id = msg.id/2097152/0.5
@@ -6724,7 +6724,7 @@ local Text ='*- تم اختيار الفلم لك*'
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ', url = "https://t.me/ArkonSource"}
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ', url = "https://t.me/python_java"}
 },
 }
 local msg_id = msg.id/2097152/0.5
@@ -6736,7 +6736,7 @@ local Text ='*- تم اختيار انمي لك*'
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ', url = "https://t.me/ArkonSource"}
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ', url = "https://t.me/python_java"}
 },
 }
 local msg_id = msg.id/2097152/0.5
@@ -6747,7 +6747,7 @@ Abs = math.random(2,140);
 local Text ='*- تم اختيار الاغنيه لك*'
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ',url="t.me/ArkonSource"}},
+{{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ',url="t.me/python_java"}},
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/lDIDIl/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -6758,7 +6758,7 @@ local Text ='*- تم اختيار صور*'
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ', url = "https://t.me/ArkonSource"}
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ', url = "https://t.me/python_java"}
 },
 }
 local msg_id = msg.id/2097152/0.5
@@ -8438,7 +8438,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -9780,7 +9780,7 @@ Redis:del(Thearkon..'arkon:Texting:DevThearkon')
 return LuaTele.sendText(msg_chat_id,msg_id,'-  تم حذف كليشه المطور')
 end
 if text == 'مبرمج سورس' or text == 'مبرمج السورس' or text == 'المبرمج' then  
-local UserId_Info = LuaTele.searchPublicChat("XxRxXx")
+local UserId_Info = LuaTele.searchPublicChat("ajaaa")
 if UserId_Info.id then
 local UserInfo = LuaTele.getUser(UserId_Info.id)
 local InfoUser = LuaTele.getUserFullInfo(UserId_Info.id)
@@ -9795,7 +9795,7 @@ local TestText = "- مطور السورس ."
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '- 𝑪𝑙𝑎𝑟𝑘 Kent #¹', url = "https://t.me/XxRxXx"}
+{text = '- 𝑪𝑙𝑎𝑟𝑘 Kent #¹', url = "https://t.me/ajaaa"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -9805,10 +9805,10 @@ local TestText = "- مبرمج السورس ."
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '- 𝑪𝑙𝑎𝑟𝑘 Kent #¹', url = "https://t.me/XxRxXx"}
+{text = '- 𝑪𝑙𝑎𝑟𝑘 Kent #¹', url = "https://t.me/ajaaa"}
 },
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ', url = "https://t.me/ArkonSource"},
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ', url = "https://t.me/python_java"},
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -9830,7 +9830,7 @@ local TestText = "  ❲ Developers Bot ❳\n— — — — — — — — —\
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ', url = "https://t.me/ArkonSource"}
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ', url = "https://t.me/python_java"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -9901,7 +9901,7 @@ data = {
 {text = 'Facebook', url = 'https://www.facebook.com/help/deleteaccount'},{text = 'Snapchat', url = 'https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fdeleteaccount'}
 },
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ', url = 't.me/python_java'}, 
 },
 }
 }
@@ -9922,7 +9922,7 @@ local T =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = ' 𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ', url = "ArkonSource"}}}
+{text = ' 𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ', url = "python_java"}}}
 local msgg = msg_id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id=" .. msg_chat_id .. "&photo="..photo.."&caption=".. URL.escape(T).."&reply_to_message_id="..msgg.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 elseif text == 'الاوامر' then
@@ -9949,7 +9949,7 @@ data = {
 {text = 'اوامر القفل الفتح', data = msg.sender.user_id..'/NoNextSeting'}, {text = '  اوامر التعطيل التفعيل  ', data = msg.sender.user_id..'/listallAddorrem'}, 
 },
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -9977,7 +9977,7 @@ data = {
 {text = 'قائمه الاوامر', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -9997,7 +9997,7 @@ data = {
 {text = 'قائمه الاوامر', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -10017,7 +10017,7 @@ data = {
 {text = 'قائمه الاوامر', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -10037,7 +10037,7 @@ data = {
 {text = 'قائمه الاوامر', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -10057,7 +10057,7 @@ data = {
 {text = 'قائمه الاوامر', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -10071,7 +10071,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -10085,7 +10085,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -10100,7 +10100,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -10115,7 +10115,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -10130,7 +10130,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -10145,7 +10145,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -10160,7 +10160,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -10175,7 +10175,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -10190,7 +10190,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -10204,7 +10204,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -10219,7 +10219,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -10234,7 +10234,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -10249,7 +10249,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -10264,7 +10264,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -10280,7 +10280,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -10294,7 +10294,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -10309,7 +10309,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -11316,7 +11316,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '-  السورس .', url = 't.me/ArkonSource'},{text = '-  لتنصيب بوت .', url = 't.me/XxRxXx'}, 
+{text = '-  السورس .', url = 't.me/python_java'},{text = '-  لتنصيب بوت .', url = 't.me/ajaaa'}, 
 },
 {
 {text = '-  اضفني في مجموعتك .', url = 't.me/'..UserBot..'?startgroup=new'}, 
@@ -11329,7 +11329,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '-  السورس .', url = 't.me/ArkonSource'},{text = '-  لتنصيب بوت .', url = 't.me/XxRxXx'}, 
+{text = '-  السورس .', url = 't.me/python_java'},{text = '-  لتنصيب بوت .', url = 't.me/ajaaa'}, 
 },
 {
 {text = '-  اضفني في مجموعتك .', url = 't.me/'..UserBot..'?startgroup=new'}, 
@@ -12170,7 +12170,7 @@ keyboard.inline_keyboard = {
 {text = ': مره اخرى 🔃.', callback_data = IdUser..'/Re@'},
 },
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ',url="t.me/ArkonSource"}
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 . ',url="t.me/python_java"}
 },
 }
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. ChatId .. '&voice=https://t.me/fgfgty12/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -12448,7 +12448,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -12506,7 +12506,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -12565,7 +12565,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -12618,7 +12618,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -12658,7 +12658,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -12713,7 +12713,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
@@ -12754,7 +12754,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/ArkonSource'}, 
+{text = '𝘢𝘳𝘬𝘰𝘯 𝘴𝘰𝘶𝘳𝘤𝘦 .', url = 't.me/python_java'}, 
 },
 }
 }
